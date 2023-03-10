@@ -1,0 +1,178 @@
+body {
+    background-color: lightgray;
+    height: 100em;
+}
+
+.entirePage {
+    background-color: lightgray;
+}
+
+.navBar {
+    background-color: blue;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 17px;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar a {
+    
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.NavBar ul a {
+    text-align: center;
+}
+
+.company {
+    font-size: 35px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex: auto;
+}
+
+.verticalNavBar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 200px;
+}
+
+.items {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.items li {
+    padding: 10px;
+}
+
+.items li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: blue;
+    padding: 10px;
+}
+
+.verticalNavBar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    width: 175px;
+}
+
+.searchBar {overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px;
+    background-color: lightgray;
+    font-size: 30px;
+}
+ #query {
+    width: 900px;
+    height: 25px;
+}
+.searchBar , li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.product {
+   /* box-sizing: border-box; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    box-shadow: 0 3px 5px -2px black;
+}
+
+.cart {
+    background-color: blue;
+}
+
+.productName {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 12px;
+}
+
+.product img {
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+
+
+.factLine {
+    text-align: center;
+    background-color: blue;
+    display: block;
+}
+
+.price {
+    text-align: center;
+    background-color: blue;
+}
+
+
+.companyInfo {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    height: 150px;
+
+}
+
+.companyInfo a {
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    text-decoration-line: none;
+}
+
+.customerCare {
+    text-align: center;
+}
+
+.title {
+    text-decoration-line: underline;
+    text-align: center;
+    padding-bottom: 10px;;
+}
+
